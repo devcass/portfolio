@@ -4,3 +4,9 @@
   align-items: $align;
   flex-direction: $direction;
 }
+
+@mixin grid($columns, $rows, $gap: 0px) {
+  grid-template-columns: $columns;
+  grid-template-rows: $rows;
+  gap: $gap;
+}
